@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['people']
+
+roboflow:
+  workspace: terry-chang-ig5jg
+  project: people_test
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/terry-chang-ig5jg/people_test/dataset/2
