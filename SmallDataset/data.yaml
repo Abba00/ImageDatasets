@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Animal', 'Car', 'Person']
+
+roboflow:
+  workspace: detection-e9vn6
+  project: 10-s9dn6
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/detection-e9vn6/10-s9dn6/dataset/1
